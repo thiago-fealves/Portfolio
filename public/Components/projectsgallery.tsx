@@ -30,7 +30,7 @@ const projects = [
     description: "Personal portfolio website created to showcase my work. It was built using Next.js and React to optimize loading times. The code is open source and can be found here.",
     portugueseDescription: "Website de portfolio pessoal criado para promover meu trabalho, ele foi feito utilizando Next.js e React para otimizar tempos de carregamento, o código é open source e pode ser encontrado aqui.",
     imageUrl: "/assets/bannerportfolio.png",
-    path: "https://google.com",
+    path: "https://github.com/thiago-fealves/Portfolio",
     ptsubtitle: "Você está aqui!",
     subtitle: "You are here!"
   },
