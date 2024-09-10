@@ -1,0 +1,118 @@
+@media screen and (min-width: 1226px) {
+  .mainblock {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    padding-left: 15vw;
+    padding-bottom: 30dvh;
+    gap: 5vh;
+    width: 100dvw;
+    background-image: url("/assets/mainbanner.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .pentester {
+    margin-bottom: 4vh;
+    font-size: 3.5em;
+  }
+  .btandnumber p {
+    color: #7ddcd6;
+    font-size: 1.25em;
+    margin-left: 2vw;
+  }
+  .hello {
+    margin-bottom: 2vh;
+  }
+  .paragraph {
+    margin-bottom: 3vh;
+    max-width: 60ch;
+  }
+  .break{
+    display: block;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .mainblock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: -5dvh;
+    padding-bottom: 22.5dvh;
+    justify-content: center;
+    gap: 6vh;
+    background-image: url("/assets/mainbanner.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: -15vh;
+  }
+  .btandnumber p {
+    color: #7ddcd6;
+    font-size: 1em;
+    margin-left: 4vw;
+  }
+  .btandnumber{
+    justify-content: center;
+  }
+  .btandnumber img{
+    width:190px
+  }
+  .mainblock p {
+    text-align: left;
+    margin-left: 3vw;
+    margin-right: 3vw;
+  }
+  .mainblock h1 {
+    text-align: left;
+    font-size: 2em;
+    margin-left: 3vw;
+    margin-right: 3vw;
+  }
+  .hello {
+    margin-bottom: 2vh;
+  }
+  .pentester {
+    margin-bottom: 3vh;
+    font-size: 3.5em;
+  }
+  .paragraph {
+    margin-bottom: 3vh;
+    
+  }
+
+}
+.backend,
+.pentester {
+  text-align: left;
+}
+
+.highlight {
+  color: #7ddcd6;
+}
+
+.btandnumber {
+  display: flex;
+  margin-top: 1vh;
+  justify-content: left;
+  align-items: center;
+}
+.btandnumber a,
+.btandnumber a:hover {
+  text-decoration: none;
+}
+
+.btandnumber a:hover {
+  text-decoration: underline;
+  color: #7ddcd6;
+}
+
+.texts {
+  margin-top: 11vh;
+}
+
+.backend {
+  margin-bottom: -1vh;
+}
+
+

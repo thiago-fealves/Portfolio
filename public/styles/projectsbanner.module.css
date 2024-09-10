@@ -1,0 +1,70 @@
+@media screen and (max-width: 1023px) {
+  .container {
+    display: flex;
+    align-items: left;
+    padding-top: 10vh;
+    flex-direction: column;
+    background-image: url("/assets/projectsbanner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 81vh;
+    margin-bottom: -15vh;
+    padding-left: 2vw;
+  }
+  .container h1 {
+    color: #7ddcd6;
+    text-align: left;
+    margin-bottom: 2vh;
+  }
+  .container p {
+    max-width: 50ch;
+    margin-bottom: 8vh;
+    text-align: left;
+  }
+  .container a,
+  .container a:hover {
+    color: #7ddcd6;
+    font-size: 1.25em;
+    text-decoration: none;
+    text-align: left;
+    width: 15ch;
+  }
+  .container a:hover {
+    text-decoration: underline;
+  }
+}
+@media screen and (min-width: 1226px) {
+  .container {
+    display: flex;
+    align-items: left;
+    padding-left: 15vw;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url("/assets/projectsbanner.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 81vh;
+    margin-bottom: 13vh;
+  }
+  .container h1 {
+    color: #7ddcd6;
+    text-align: left;
+    margin-bottom: 2vh;
+  }
+  .container p {
+    max-width: 50ch;
+    margin-bottom: 10vh;
+  }
+  .container a,
+  .container a:hover {
+    color: #7ddcd6;
+    font-size: 1.25em;
+    text-decoration: none;
+    width: 15ch;
+  }
+  .container a:hover {
+    text-decoration: underline;
+  }
+}

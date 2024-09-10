@@ -1,0 +1,138 @@
+@media (max-width: 1023px) {
+  .fullblock .highlightstitle {
+    font-size: 2em;
+    text-align: center;
+    margin-top: -18vh;
+  }
+  .highlights {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    margin: auto;
+    gap: 4vh;
+    margin-bottom: 10vh;
+  }
+  .highlightblocks .highlightstext {
+    align-items: center;
+    margin-top: 2vh;
+  }
+  .bgright {
+    display: none;
+  }
+  .bgleft {
+    display: none;
+  }
+  .highlightblocks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 5vh;
+    border-radius: 10px;
+    border: 1px solid #7ddcd6;
+    width: 100%;
+  }
+  .highlightstext h1 {
+    font-size: 1.5em;
+    text-align: center;
+    color: #7ddcd6;
+    margin: 0;
+  }
+  .highlightstext a {
+    color: #7ddcd6;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.3em;
+    margin: 0;
+  }
+  .highlightblocks p {
+    margin: 0;
+    margin-top: 0.2vh;
+    margin-bottom: 10vh;
+    text-align: center;
+  }
+  .highlightstitle {
+    color: #7ddcd6;
+    margin-bottom: 4vh;
+    font-size: 3.5rem;
+    text-align: left;
+    margin-left: 1.5vw;
+  }
+}
+
+@media (min-width: 1226px) {
+  .highlights {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2.79vh;
+    width: 80vw;
+    margin: auto;
+  }
+  .highlightblocks {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 3vh;
+    border-radius: 10px;
+    border: 1px solid #7ddcd6;
+    width: 45%;
+    margin-bottom: 4vh;
+  }
+  .highlightstext h1 {
+    font-size: 2.25em;
+    color: #7ddcd6;
+  }
+  .highlightstext a {
+    color: #7ddcd6;
+    text-decoration: none;
+    font-size: 1.3em;
+  }
+  .highlightblocks p {
+    margin-top: 0.2vh;
+    margin-bottom: 10vh;
+    max-width: 30ch;
+    text-align: left;
+  }
+  .highlightstitle {
+    color: #7ddcd6;
+    margin-bottom: 3vh;
+    font-size: 3.5rem;
+    text-align: left;
+    margin-left: 1.5vw;
+  }
+}
+
+.highlightimage {
+  width: 25%;
+  height: auto;
+}
+
+.highlightstext {
+  margin-left: 3vw;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+
+
+.bgright {
+  position: absolute;
+  margin-top: 15vh;
+  right: 0;
+}
+
+.bgleft {
+  margin-top: 5vh;
+  margin-bottom: 10vh;
+}
+
+.fullblock {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+  margin: 30vh auto;
+  gap: 2vh;
+  margin-bottom: -2vh;
+}

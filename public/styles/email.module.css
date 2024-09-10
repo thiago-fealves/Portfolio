@@ -1,0 +1,66 @@
+.emailcontainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.text {
+  text-align: center;
+}
+.callforaction {
+  font-size: 0.75em;
+}
+.button {
+  /* Variables */
+  cursor: pointer;
+  margin-top: 10vh;
+  --button_radius: 0.5em;
+  --button_color: #050010;
+  --button_outline_color: #7ddcd6;
+  font-size: 17px;
+  font-weight: bold;
+  border: none;
+  border-radius: var(--button_radius);
+  background: var(--button_outline_color);
+  width: 200px;
+  height: 50px;
+}
+
+.buttontop {
+  width: 200px;
+  height: 50px;
+  display: block;
+  box-sizing: border-box;
+  border: 2px solid var(--button_outline_color);
+  border-radius: var(--button_radius);
+  padding: 0.75em 1em;
+  background: var(--button_color);
+  color: #dfdfdf;
+  transform: translate(-0.4em,-0.2em);
+  transition: transform 0.1s ease;
+}
+
+.button:hover .buttontop {
+  /* Pull the button upwards when hovered */
+  transform: translate(-0.45em,-0.25em);
+}
+
+.button:active .buttontop {
+  /* Push the button downwards when pressed */
+  transform: translate(-0.35em,-0.1em);
+}
+.emailcontainer img{
+  margin-left: 25vw;
+  margin-top: -8vh;
+  width: 5%;
+  height: auto;
+}
+@media screen and (max-width:1225px) {
+  .emailcontainer img{
+    display: none;
+  }
+  .text{
+    font-size:2em;
+    margin-bottom: -5vh;
+  }
+}

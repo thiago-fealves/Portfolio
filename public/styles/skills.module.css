@@ -1,0 +1,137 @@
+@media screen and (min-width: 1023px) {
+  .selectorlist {
+    margin-top: 4vh;
+  }
+  .selectorlist li {
+    margin-bottom: 2vh;
+  }
+  .selectorlist2 li {
+    margin-bottom: 2vh;
+  }
+  .skillscontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    margin-left: 2vw;
+  }
+  .selector {
+    border: none;
+    background: none;
+    width: 15vw;
+  }
+  .selector:hover {
+    background: linear-gradient(0.25turn, #7ddcd673, #43767374);
+  }
+  .selector h1 {
+    font-size: 1.75em;
+  }
+  .selectorfocus {
+    background: linear-gradient(0.25turn, #7ddcd673, #43767374);
+    width: 15vw;
+  }
+  .textblock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: top;
+    margin-right: -5vw;
+    margin-bottom: 20vh;
+    border-top: 2px solid;
+    padding-right: 8vw;
+    padding-top: 2vh;
+  }
+
+  .textblock h1 {
+    text-align: left;
+  }
+  .titlebanner {
+    color: #7ddcd6;
+    border-top: 2px solid #7ddcd6;
+    font-size: 2.75em;
+    padding-top: 2vh;
+  }
+  .skillscontainer img {
+    margin-top: -10vh;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(to left, #7ddcd6 60%, transparent 40%) 100% 1;
+    padding-bottom: 2vh;
+    width: 50%;
+    height: auto;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .selectorlist {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    margin-top: 5vh;
+    text-align: center;
+  }
+  .selectorlist li button {
+    margin-bottom: 2vh;
+    width: fit-content;
+  }
+  .selectorlist2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+  }
+  .selectorlist2 li button {
+    margin-bottom: 2vh;
+    width: fit-content;
+  }
+  .skillscontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30vh;
+    margin-bottom: 10vh;
+  }
+  .selector {
+    border: none;
+    background: none;
+  }
+  .selector:hover {
+    background: linear-gradient(0.25turn, #7ddcd673, #43767374);
+  }
+  .selector h1 {
+    font-size: 1.5em;
+  }
+  .selectorfocus {
+    background: linear-gradient(0.25turn, #7ddcd673, #43767374);
+    width: 15vw;
+  }
+  .textblock {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20vh;
+    border-top: 2px solid;
+    border-image: linear-gradient(to right, #7ddcd6 100%, transparent 0%) 100% 1;
+    padding-top: 2vh;
+    width: 100vw;
+  }
+
+  .textblock h1 {
+    text-align: left;
+  }
+  .titlebanner {
+    color: #7ddcd6;
+    font-size: 3em;
+  }
+  .skillscontainer img {
+    margin: auto;
+    margin-top: -20vh;
+    border-bottom: 2px solid #7ddcd6;
+    padding-bottom: 2vh;
+    width: 100%;
+    height: auto;
+  }
+}

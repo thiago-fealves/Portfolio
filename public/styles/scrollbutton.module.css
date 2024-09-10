@@ -1,0 +1,29 @@
+@media (min-width: 768px) {
+  .button {
+    cursor: pointer;
+    background: none;
+    border: none;
+  }
+  .buttoncontainer {
+    margin-top: 10vh;
+    margin-left: 90dvw;
+    width: fit-content;
+    opacity: 50%;
+    display: flex;
+    justify-content: center;
+  }
+  .buttoncontainer:hover {
+    opacity: 100%;
+  }
+}
+@media (max-width: 767px) {
+  .button {
+    display: none;
+  }
+  .buttoncontainer {
+    display: none;
+  }
+  .buttoncontainer:hover {
+    display: none;
+  }
+}

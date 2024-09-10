@@ -1,0 +1,33 @@
+.card{
+    border: 1px solid #7ddcd6;
+    border-radius: 4px;
+    padding: 16px;
+    margin: 8px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 48vh;
+} 
+.card:hover{
+  border: 2px solid #7ddcd6;
+}
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+  }
+.card h1 {
+    font-size: 1.2em;
+    margin-top: 1vh;
+    text-align: left;
+    margin-bottom: 1vh;
+  }
+.card p {
+    font-size: 1em;
+    text-align: left;
+    color: #dfdfdf;
+    margin-bottom: 1vh;
+  }
+.card .subtitle{
+  color:#7ddcd6;
+  font-size: 1em;
+}

@@ -1,0 +1,128 @@
+@media (min-width: 1023px) {
+  .navcontainer {
+    padding-top: 1.56vh;
+    padding-bottom: 0.29vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 6vh;
+    border-bottom: 1px solid;
+    border-image: radial-gradient(circle at center, #7ddcd6 50%, #d1eca4 100%) 1;
+  }
+  .thiagocontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-right: 23.5vw;
+  }
+  .translatecontainer {
+    display: flex;
+    cursor: pointer;
+    margin-left: 22vw;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+  }
+  .translatecontainer img {
+    margin-right: 0.5vw;
+  }
+  .pagescontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+@media (max-width: 1023px) {
+  .navcontainer {
+    height: 5vh;
+    padding-left: 4vw;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid;
+    z-index: 1;
+    border-image: radial-gradient(circle at center, #7ddcd6 50%, #d1eca4 100%) 1;
+  }
+  .thiagocontainer {
+    display: none;
+  }
+  .translatecontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  .translatecontainer img {
+    margin-left: 1vw;
+    margin-right: 1vw;
+    height: 1.5vh;
+    width: auto;
+  }
+  .translatecontainer{
+    display: none;
+  }
+  .pagescontainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:5vw;
+  }
+}
+
+.thiagocontainer h1 {
+  z-index: 1;
+  align-items: center;
+  text-align: center;
+}
+
+.thiagocontainer img {
+  z-index: 1;
+}
+
+.thiagofealves {
+  align-items: center;
+  text-align: center;
+  font-size: 1.25em;
+  background-image: linear-gradient(0deg, #7ddcd664, #7ddcd6e5 60%);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.navbar {
+  color: #dfdfdf;
+  font-size: 1em;
+  text-decoration: none;
+  text-align: center;
+  margin-right: 3vw;
+}
+
+.navbar:hover {
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.navbarselected {
+  color: #dfdfdffb;
+  text-decoration: none;
+  font-size: 1em;
+  font-weight: 600;
+  text-align: center;
+  margin-right: 3vw;
+}
+.navbarselected:hover {
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.translate {
+  background: none;
+  border: none;
+}

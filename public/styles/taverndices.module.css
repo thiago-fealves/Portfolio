@@ -1,0 +1,206 @@
+@media screen and (max-width: 1023px) {
+  .chatwrapper {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    height: 50%;
+    width: 95%;
+    padding: 5%;
+    align-items: center;
+    border: 1px solid #7ddcd6;
+    border-radius: 10px;
+    gap: 3vw;
+  }
+  .text {
+    text-align: center;
+  }
+  .chatwrapper p {
+    max-width: 40ch;
+    margin-bottom: 1vh;
+  }
+  .chatwrapper h1 {
+    text-align: center;
+    color: #7ddcd6;
+  }
+  .chatwrapper a,
+  .chatwrapper a:hover {
+    text-align: center;
+    color: #7ddcd6;
+    font-size: 1.25em;
+    text-decoration: none;
+  }
+  .chatwrapper a:hover {
+    text-decoration: underline;
+  }
+
+  .chatcontainer {
+    display: none;
+  }
+
+  .chatmessages {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    align-items: center;
+    background-color: #0f0e16;
+    box-sizing: border-box;
+    text-align: left;
+  }
+
+  .chatform {
+    border-top: 1px solid #000000;
+    display: flex;
+    padding: 5px;
+    background-color: #221f32;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .chatforminput {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #4d4a50;
+    background-color: #4d4a50;
+    color: #dfdfdf;
+    border-radius: 4px;
+    margin-right: 5px;
+    width: 100vw;
+  }
+
+  .chatformbutton {
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    padding-left: 0.25vw;
+    padding-top: 0.25vw;
+    padding-right: 0.1vw;
+  }
+
+  .chatmessage {
+    margin-bottom: 10px;
+  }
+  .chatmessage p {
+    color: #dfdfdf;
+    text-align: center;
+    margin: 1vh;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  .chatwrapper .diceimage {
+    padding-top: 1vh;
+    height: 30%;
+    width: 60%;
+  }
+}
+@media screen and (min-width: 1226px) {
+  .chatwrapper {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    height: 50%;
+    width: 95%;
+    padding: 2%;
+    align-items: center;
+    border: 1px solid #7ddcd6;
+    border-radius: 10px;
+    gap: 3vw;
+  }
+  .text {
+    margin-left: -2vw;
+  }
+  .chatwrapper p {
+    max-width: 40ch;
+    margin-bottom: 2.5vh;
+  }
+  .chatwrapper h1 {
+    text-align: left;
+    color: #7ddcd6;
+  }
+  .chatwrapper a,
+  .chatwrapper a:hover {
+    text-align: left;
+    color: #7ddcd6;
+    font-size: 1.25em;
+    text-decoration: none;
+  }
+  .chatwrapper a:hover {
+    text-decoration: underline;
+  }
+
+  .chatcontainer {
+    width: 40%;
+    height: 40vh;
+    border: 2px solid #000000;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #0f0e16;
+    position: relative;
+    box-sizing: border-box;
+  }
+
+  .chatmessages {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    align-items: center;
+    justify-content: center;
+    background-color: #0f0e16;
+    box-sizing: border-box;
+    text-align: left;
+  }
+
+  .chatform {
+    border-top: 1px solid #000000;
+    display: flex;
+    padding: 5px;
+    background-color: #0f0e16;
+    position: relative;
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .chatforminput {
+    flex: 1;
+    padding: 5px;
+    border: 1px solid #4d4a50;
+    background-color: #4d4a50;
+    color: #dfdfdf;
+    border-radius: 4px;
+    margin-right: 5px;
+  }
+
+  .chatformbutton {
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    padding-left: 0.25vw;
+    padding-top: 0.25vw;
+    padding-right: 0.1vw;
+  }
+
+  .chatmessage {
+    margin-bottom: 10px;
+  }
+  .chatmessage p {
+    color: #dfdfdf;
+    margin: 1vh;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+  }
+  .chatwrapper .diceimage {
+    height: 30%;
+    width: 20%;
+  }
+}
+.tip{
+  color:#7ddcd6
+}

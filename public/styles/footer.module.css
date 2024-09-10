@@ -1,0 +1,15 @@
+
+.container {
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10vh;
+  margin-bottom: 2vh;
+  border-top: 1px solid rgb(92, 91, 91);
+  height: 5vh;
+}
+.copyright {
+  margin-left: 20px;
+}

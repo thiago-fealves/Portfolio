@@ -1,0 +1,18 @@
+  /Users/oracleofdelfos/Documents/Oracle's Temple/Portfolio:
+  drwxr-xr-x@  17 oracleofdelfos  staff    544 Aug 14 12:04   .
+  drwxr-xr-x@  11 oracleofdelfos  staff    352 Sep  4 11:56   ..
+  -rw-r--r--@   1 oracleofdelfos  staff   6148 Sep  4 11:56  .DS_Store
+  drwxr-xr-x@  16 oracleofdelfos  staff    512 Sep  5 09:17   .git
+  -rw-r--r--@   1 oracleofdelfos  staff   2055 Aug 12 19:58   .gitignore
+  drwxr-xr-x@   8 oracleofdelfos  staff    256 Aug 12 20:18   .idea
+  drwxr-xr-x@   9 oracleofdelfos  staff    288 Sep  4 11:42   .next
+  drwxr-xr-x@   5 oracleofdelfos  staff    160 Aug 12 20:42   .vercel
+  drwxr-xr-x@   3 oracleofdelfos  staff     96 Aug 12 19:58   api
+  -rw-r--r--@   1 oracleofdelfos  staff    201 Aug 12 19:58   next-env.d.ts
+  -rw-r--r--@   1 oracleofdelfos  staff      0 Aug 12 19:58   next.config.js
+  drwxr-xr-x@ 152 root            staff   4864 Aug 12 20:41   node_modules
+  -rw-r--r--@   1 oracleofdelfos  staff  84789 Aug 12 20:41   package-lock.json
+  -rw-r--r--@   1 oracleofdelfos  staff    577 Aug 12 20:41   package.json
+  drwxr-xr-x@   9 oracleofdelfos  staff    288 Sep  5 09:19   pages
+  drwxr-xr-x@   7 oracleofdelfos  staff    224 Aug 14 12:04   public
+  -rw-r--r--@   1 oracleofdelfos  staff    611 Aug 12 19:58   tsconfig.json

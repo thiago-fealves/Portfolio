@@ -1,0 +1,28 @@
+.card {
+  text-align: center;
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 1023px) {
+  .icon{
+    width:40px;
+    height:40px;
+  }
+  .carousel {
+    margin: 0 auto;
+    margin-top: 1vh;
+  }
+}
+@media screen and (max-width: 1023px) {
+  .carousel {
+    margin: 0 auto;
+    margin-top: 3vh;
+  }
+  .icon{
+    width:30px;
+    height:30px;
+  }
+}
