@@ -21,7 +21,7 @@ const MainBanner = () => {
       <div className={styles.mainblock}>
         <span className={styles.texts}>
           <Paragraph subtitle={true} customcls={styles.hello}>
-            {portugues ? "Olá, eu me chamo" : "Hello, i'm"} Thiago Felipe A.
+            {portugues ? "Olá, eu me chamo" : "Hello, I'm"} Thiago Felipe A.
           </Paragraph>
           <Title customcls={styles.backend}>
             {portugues ? "Programador " : "A "}
