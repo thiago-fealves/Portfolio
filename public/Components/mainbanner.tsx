@@ -29,7 +29,7 @@ const MainBanner = () => {
             {portugues ? "" : " Developer"}
           </Title>
           <Title subtitle={true} customcls={styles.pentester}>
-            {portugues ? "& OffSec Enthusiast" : "& OffSec Enthusiast"}
+            {portugues ? "& Entusiasta OffSec" : "& OffSec Enthusiast"}
           </Title>
           <Paragraph customcls={styles.paragraph}>
             {portugues
