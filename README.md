@@ -1,4 +1,5 @@
 # 💼 Meu Portfólio
+<img width="1676" alt="image" src="https://github.com/user-attachments/assets/5984ba3a-085b-4754-9a78-28dde481c7c7" />
 
 Bem-vindo ao meu portfólio online! Este espaço destaca meus projetos e habilidades como desenvolvedor, além de fornecer informações de contato e meu currículo.
 
